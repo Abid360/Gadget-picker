@@ -1,20 +1,25 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
 import "./Gear.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const Gear = (props) => {
   const { id, name, price, img } = props.gear;
   return (
-    <Card
-      className="shadow p-3 mb-5 bg-white rounded"
-      style={{ width: "18rem" }}
-    >
+    <Card className="" style={{ width: "18rem" }}>
       <Card.Img variant="top" src={img} />
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>{id}</Card.Text>
         <Card.Text>Price: {price}</Card.Text>
-        <Button variant="primary">Add to Cart</Button>
+        <Button className="btn" variant="primary">
+          Add to Cart
+          <FontAwesomeIcon
+            className="btn-icon"
+            icon={faShoppingCart}
+          ></FontAwesomeIcon>
+        </Button>
       </Card.Body>
     </Card>
     // <div className="gear">

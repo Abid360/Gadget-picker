@@ -1,4 +1,8 @@
 .gear img {
   width: 320px;
-  height: 240px;
+  height: 200px;
+}
+
+.btn-icon {
+  margin-left: 10px;
 }
