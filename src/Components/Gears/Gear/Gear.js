@@ -4,11 +4,11 @@ import "./Gear.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
-const Gear = (props) => {
-  const { id, name, price, img } = props.gear;
+const Gear = ({ gear, handleAddToCart }) => {
+  const { id, name, price, img } = gear;
   return (
     <Card
-      className="shadow p-3 mb-5 bg-white rounded"
+      className="card shadow p-3 mb-5 bg-white rounded"
       style={{ width: "18rem" }}
     >
       <Card.Img variant="top" src={img} />
@@ -16,7 +16,11 @@ const Gear = (props) => {
         <Card.Title>{name}</Card.Title>
         <Card.Text>{id}</Card.Text>
         <Card.Text>Price: {price}</Card.Text>
-        <Button className="btn" variant="primary">
+        <Button
+          onClick={() => handleAddToCart(gear)}
+          className="btn"
+          variant="primary"
+        >
           Add to Cart
           <FontAwesomeIcon
             className="btn-icon"

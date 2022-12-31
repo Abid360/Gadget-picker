@@ -6,3 +6,9 @@
 .btn-icon {
   margin-left: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .card {
+    grid-template: 1fr;
+  }
+}

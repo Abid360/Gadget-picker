@@ -5,5 +5,21 @@
 .gear-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 35px;
+  gap: 50px;
 }
+
+.cart-container {
+  background-image: linear-gradient(
+    to right bottom,
+    #2c77e9,
+    #00a8ee,
+    #00cbd4,
+    #a3e4c5,
+    #f2fbdd
+  );
+}
+/* @media screen and (max-width: 1100px) {
+  .gear-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
