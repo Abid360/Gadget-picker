@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "img": "https://img.freepik.com/free-photo/professional-movie-camera-lens-movie-set_1268-15950.jpg?w=1380&t=st=1672465733~exp=1672466333~hmac=781123bc83d9377a0e877741c2eebb15757027961005a8de79390fe5ce2f31d7",
+    "name": "Professional movie camera lens",
+    "price": 148000
+  },
+  {
+    "id": "2",
+    "img": "https://img.freepik.com/free-photo/professional-camera-close-up-photographer-s-desktop-blurred-background_169016-10677.jpg?w=1060&t=st=1672465859~exp=1672466459~hmac=df86113f83df51a9b5b5ab3260378cac346c15f33f5a55c8eed740f9b151cd18",
+    "name": "Canon A-250 with lens",
+    "price": 85000
+  },
+  {
+    "id": "3",
+    "img": "https://img.freepik.com/free-photo/retro-cameras_144627-12242.jpg?w=1380&t=st=1672465954~exp=1672466554~hmac=48f682acdd2824aa0bf7af9945643e4ec07549ac6472f0149a807be96ba5c5e8",
+    "name": "Retro Camera ",
+    "price": 15000
+  },
+  {
+    "id": "4",
+    "img": "https://img.freepik.com/free-photo/trendy-mini-instant-camera-against-pink-background_23-2147916379.jpg?w=1060&t=st=1672466105~exp=1672466705~hmac=28f59d6b5f53392ce417d2d2e905de92aba1942833dd021a2b22a27770e24927",
+    "name": "Instant Camera",
+    "price": 13000
+  },
+  {
+    "id": "5",
+    "img": "https://as2.ftcdn.net/v2/jpg/03/90/40/35/1000_F_390403575_3IP1qyCe9Gre2Kbh9Jpxm5shTIadPDHI.jpg",
+    "name": "Insta360 One R",
+    "price": 45000
+  },
+  {
+    "id": "6",
+    "img": "https://t4.ftcdn.net/jpg/00/88/95/59/240_F_88955937_K1ebYJ1VFtixoeG5cmBmEhCAF8EeP8Ea.jpg",
+    "name": "Xiaomi Action Camera",
+    "price": 20000
+  },
+  {
+    "id": "7",
+    "img": "https://t4.ftcdn.net/jpg/04/20/56/15/240_F_420561598_29bEJWOrwANvOQdKTRxo1UpZkzWAVPPN.jpg",
+    "name": "Insta 360 GO",
+    "price": 35000
+  },
+  {
+    "id": "8",
+    "img": "https://t4.ftcdn.net/jpg/03/23/46/41/240_F_323464155_q7n0qoruBZEKWqKr62x1ujUTAR4o9RIp.jpg",
+    "name": "GoPro Hero 8",
+    "price": 50000
+  },
+  {
+    "id": "9",
+    "img": "https://t3.ftcdn.net/jpg/02/90/99/86/240_F_290998690_6np3n4AZ3vgYkE6HTns4aL3acO5vCiI8.jpg",
+    "name": "Insta360 One X",
+    "price": 49000
+  },
+  {
+    "id": "10",
+    "img": "https://t4.ftcdn.net/jpg/05/14/49/43/240_F_514494358_bn4CskAEvWtNSDzhxAYgOGeYsLjYwtKV.jpg",
+    "name": "RODE Wireless Miceophone",
+    "price": 24500
+  }
+]
