@@ -7,7 +7,10 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 const Gear = (props) => {
   const { id, name, price, img } = props.gear;
   return (
-    <Card className="" style={{ width: "18rem" }}>
+    <Card
+      className="shadow p-3 mb-5 bg-white rounded"
+      style={{ width: "18rem" }}
+    >
       <Card.Img variant="top" src={img} />
       <Card.Body>
         <Card.Title>{name}</Card.Title>
