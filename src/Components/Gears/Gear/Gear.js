@@ -3,12 +3,14 @@ import { Button, Card } from "react-bootstrap";
 import "./Gear.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import Cart from "../../Cart/Cart";
 
 const Gear = ({ gear, handleAddToCart }) => {
   const { id, name, price, img } = gear;
+  console.log(gear);
   return (
     <Card
-      className="card shadow p-3 mb-5 bg-white rounded"
+      className=" shadow p-3 mb-5 bg-white rounded"
       style={{ width: "18rem" }}
     >
       <Card.Img variant="top" src={img} />

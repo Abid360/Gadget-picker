@@ -1,0 +1,13 @@
+.cart {
+  position: sticky;
+  top: 0;
+  padding: 30px 25px;
+  text-align: center;
+}
+.select-button {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.choose-button {
+  margin-bottom: 1.5em;
+}

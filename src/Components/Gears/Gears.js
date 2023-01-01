@@ -31,7 +31,6 @@ const Gears = () => {
       </div>
       <div className="cart-container">
         <Cart cart={cart}></Cart>
-        <p>Selected Items: {cart.length}</p>
       </div>
     </div>
   );

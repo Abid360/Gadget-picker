@@ -18,8 +18,13 @@
     #f2fbdd
   );
 }
-/* @media screen and (max-width: 1100px) {
+@media screen and (min-width: 768px) and (max-width: 1100px) {
   .gear-container {
     grid-template-columns: repeat(2, 1fr);
   }
-} */
+}
+@media screen and(max-width:767px) {
+  .gear-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
