@@ -2,7 +2,14 @@ import React, { useState } from "react";
 import "./Cart.css";
 
 const Cart = ({ cart }) => {
-  const [random, setRandom] = useState([]);
+  const [clear, setClear] = useState([]);
+
+  function empty(clear) {
+    return (cart.length = 0);
+  }
+  const handleClick = () => {
+    setClear(empty(clear));
+  };
   //   const [num, setNum] = useState(0);
 
   //   function randomNumberRange(min, max) {
@@ -36,17 +43,15 @@ const Cart = ({ cart }) => {
         <button className="choose-button" onClick={randomGear}>
           <p>Choose 1 For Me</p>
         </button>
-        <div>
+        {/* <div>
           {cart.map((item) => (
             <h3 key={item.id}>number is:{item.id}</h3>
           ))}
-        </div>
-        <div>
-          <p>Choosen One: {num}</p>
-        </div>
+        </div> */}
         <button>
-          <p className="reset-button">Reset Cart</p>
-          <h2>number is: {num}</h2>
+          <p className="reset-button" onClick={handleClick}>
+            Reset Cart
+          </p>
         </button>
       </div>
     </div>
