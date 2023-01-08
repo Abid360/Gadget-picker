@@ -7,7 +7,7 @@ import Cart from "../../Cart/Cart";
 
 const Gear = ({ gear, handleAddToCart }) => {
   const { id, name, price, img } = gear;
-  console.log(gear);
+  // console.log(gear);
   return (
     <Card
       className=" shadow p-3 mb-5 bg-white rounded"

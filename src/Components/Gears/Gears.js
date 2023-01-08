@@ -12,10 +12,10 @@ const Gears = () => {
     fetch("product.json")
       .then((res) => res.json())
       .then((data) => setGears(data));
-  });
+  }, []);
 
   const handleAddToCart = (gear) => {
-    console.log(gear);
+    // console.log(gear);
     const newCart = [...cart, gear];
     setCart(newCart);
   };
